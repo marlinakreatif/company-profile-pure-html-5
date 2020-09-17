@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Komentar Anda</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/icon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./assets/styles/font-awesome.min.css" />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+  </head>
+  <body>
+    <header id="main-header">
+      <div class="jumbotron">
+        <h1>Khasiat Buah dan Sayur</h1>
+        <p>
+          <i
+            >Yuk sehatkan tubuh kita dengan sayur dan buah, dan kenali
+            khasiatnya !</i
+          >
+        </p>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="./index.html"
+              ><i class="fa fa-home" aria-hidden="true"></i> Beranda</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="content">
+        <article class="card">
+          <h4>Semua Komentar :</h4>
+          <div id="display-comment">
+              <ul id="comment-list"></ul>
+          </div>
+        </article>
+        <article class="card">
+          <div class="comment-box">
+            <h4>Tulis Komentar :</h4>
+            <textarea name="comment" id="comment" cols="30" rows="5"></textarea>
+            <button id="kirim" onclick="getInputValue();">
+              Kirim Komentar
+            </button>
+            <button type="button" onclick="clearStorage();">clear storage</button>
+          </div>
+        </article>
+      </div>
+      <aside class="card">
+        <header>
+          <h2>Yanwar Nasihin</h2>
+          <p>Hidup Penuh Perjuangan!</p>
+          <figure>
+            <img
+              src="./assets/images/logo_sayuran_dan_buah.jpg"
+              alt="yanwar nasihin"
+            />
+            <figcaption><small>yanwarnasihin28@gmail.com</small></figcaption>
+          </figure>
+        </header>
+      </aside>
+    </main>
+    <footer>
+      <p>Yanwar Nasihin &copy; 2020, Dicoding Academy</p>
+    </footer>
+    <script src="./assets/scripts/cek_user.js"></script>
+    <script src="./assets/scripts/komentar.js"></script>
+  </body>
+</html>
