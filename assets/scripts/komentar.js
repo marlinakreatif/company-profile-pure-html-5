@@ -90,4 +90,5 @@ function generateDummyComments() {
   localStorage.setItem(COMMENT_CACHE_KEY, JSON.stringify(comments.reverse()));
   return comments.reverse();
 }
+
 displayComments();

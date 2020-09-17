@@ -90,8 +90,8 @@ footer {
 }
 .card header img {
   width: 100%;
-  border-radius: 50%;
-  border: 3px solid whitesmoke;
+  border-radius: 15px;
+  border: 3px solid rgb(238, 220, 121);
 }
 .box-1 {
   padding: 20px;
